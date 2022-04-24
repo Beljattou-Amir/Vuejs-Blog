@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "pseudo": "Amir",
+      "email": "Amir@yahoo.fr",
+      "password": "123456",
+      "urlImgProfil": "https://thispersondoesnotexist.com/image"
+    },
+    {
+      "id": 2,
+      "pseudo": "Bobo",
+      "email": "bobo@yahoo.fr",
+      "password": "123456",
+      "urlImgProfil": "https://thispersondoesnotexist.com/image"
+    },
+    {
+      "pseudo": "test",
+      "email": "test@test.com",
+      "password": "123456",
+      "urlImgProfil": "https://thispersondoesnotexist.com/image",
+      "id": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel imperdiet ligula. Curabitur vitae dolor eget lorem viverra pulvinar eget et erat. Suspendisse varius eros varius nisi pharetra viverra.",
+      "urlImgArticle": "https://source.unsplash.com/random/1000x300",
+      "like": 76,
+      "pseudo": "Amir",
+      "date": 1649277945051,
+      "commentaires": [
+        {
+          "contenu": "test",
+          "pseudo": "Amir",
+          "dt": 1650444230555
+        },
+        {
+          "contenu": "test de l'heur!",
+          "pseudo": "test",
+          "dt": 1650449342577
+        },
+        {
+          "contenu": "testing comms ",
+          "pseudo": "Amir",
+          "dt": 1650819387988
+        },
+        {
+          "contenu": "testing comms ",
+          "pseudo": "Amir",
+          "dt": 1650819389617
+        }
+      ]
+    },
+    {
+      "contenu": "ddddddd",
+      "urlImgArticle": "https://source.unsplash.com/random/1000x300",
+      "like": 0,
+      "pseudo": "Amir",
+      "date": 1650832528769,
+      "commentaires": [],
+      "id": 2
+    },
+    {
+      "contenu": "mlkjgdsqq",
+      "urlImgArticle": "https://source.unsplash.com/random/1000x300",
+      "like": 0,
+      "pseudo": "Amir",
+      "date": 1650832580739,
+      "commentaires": [
+        {
+          "contenu": "ddzdqd",
+          "pseudo": "Amir",
+          "dt": 1650832592722
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
